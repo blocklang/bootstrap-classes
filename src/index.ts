@@ -16,6 +16,7 @@ export const disabled: string = 'disabled';
 // Layout
 //     container
 export const container: string = 'container';
+export const container_fluid: string = 'container-fluid';
 
 //     grid
 export const row: string = 'row';
