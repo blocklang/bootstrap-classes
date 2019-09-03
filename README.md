@@ -12,6 +12,8 @@ Install
 npm i bootstrap-classes
 ```
 
+Use
+
 ```ts
 import * as c from 'bootstrap-classes';
 
