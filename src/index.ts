@@ -174,13 +174,22 @@ export const navbar_toggler: string = "navbar-toggler";
 export const navbar_toggler_icon: string = "navbar-toggler-icon";
 export const navbar_expand_lg: string = "navbar-expand-lg";
 export const navbar_dark: string = "navbar-dark";
-export const bg_dark: string = "bg-dark";
 export const navbar_light: string = "navbar-light";
-export const bg_light: string = "bg-light";
 export const navbar_brand: string = "navbar-brand";
 export const navbar_nav: string = "navbar-nav";
 export const collapse: string = "collapse";
 export const navbar_collapse: string = "navbar-collapse";
+
+export const bg_primary: string = "bg-primary";
+export const bg_secondary: string = "bg-secondary";
+export const bg_success: string = "bg-success";
+export const bg_danger: string = "bg-danger";
+export const bg_warning: string = "bg-warning";
+export const bg_info: string = "bg-info";
+export const bg_light: string = "bg-light";
+export const bg_dark: string = "bg-dark";
+export const bg_white: string = "bg-white";
+export const bg_transparent: string = "bg_transparent";
 
 //      pagination
 export const pagination: string = "pagination";
