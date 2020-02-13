@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-classes",
-  "version": "0.0.3-alpha.1",
+  "version": "0.0.3-alpha.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/blocklang/bootstrap-classes.git"
@@ -10,21 +10,25 @@
     "build:lib:legacy": "dojo build widget --mode dist --target lib -l && shx cp -r output/dist/* dist/",
     "clean": "shx rm -rf dist && shx mkdir dist",
     "build": "npm run clean && npm run build:lib && npm run build:lib:legacy && shx cp package.json dist/ && shx cp README.md dist/",
-    "precommit": "lint-staged",
     "prettier": "prettier --write 'src/**/*.{ts,tsx}' 'src/**/*.css' 'tests/**/*.{ts,tsx}'"
   },
   "dependencies": {
-    "tslib": "~1.9.1"
+    "tslib": "~1.10.0"
   },
   "devDependencies": {
     "@dojo/cli": "^6.0.0",
     "@dojo/cli-build-widget": "^6.0.2",
     "@types/node": "^9.6.52",
-    "husky": "^3.0.8",
-    "lint-staged": "^9.4.2",
-    "prettier": "^1.18.2",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.7",
+    "prettier": "^1.19.1",
     "shx": "^0.3.2",
     "typescript": "~3.4.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "lint-staged": {
     "*.{ts,tsx,css}": [
