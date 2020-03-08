@@ -128,20 +128,25 @@ export const dropdown_divider: string = "dropdown-divider";
 
 //      forms
 export const form_text: string = "form-text";
-export const needs_validation: string = "needs-validation";
 export const form_control: string = "form-control";
 export const form_control_lg: string = "form-control-lg";
 export const form_control_sm: string = "form-control-sm";
 export const form_control_plaintext: string = "form-control-plaintext";
-export const is_valid: string = "is-valid";
-export const is_invalid: string = "is-invalid";
 export const form_group: string = "form-group";
-export const valid_tooltip: string = "valid-tooltip";
-export const invalid_tooltip: string = "invalid-tooltip";
 export const form_check: string = "form-check";
 export const form_check_input: string = "form-check-input";
 export const form_check_label: string = "form-check-label";
 export const form_check_inline: string = "form-check-inline";
+
+//      validation
+export const needs_validation: string = "needs-validation";
+export const is_valid: string = "is-valid";
+export const is_invalid: string = "is-invalid";
+export const was_validated: string = "was-validated";
+export const valid_tooltip: string = "valid-tooltip";
+export const invalid_tooltip: string = "invalid-tooltip";
+export const valid_feedback: string = "valid-feedback";
+export const invalid_feedback: string = "invalid-feedback";
 
 //      input group
 export const input_group: string = "input-group";
