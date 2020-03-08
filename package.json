@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-classes",
-  "version": "0.0.3-alpha.2",
+  "version": "0.0.3-alpha.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/blocklang/bootstrap-classes.git"
@@ -13,14 +13,14 @@
     "prettier": "prettier --write 'src/**/*.{ts,tsx}' 'src/**/*.css' 'tests/**/*.{ts,tsx}'"
   },
   "dependencies": {
-    "tslib": "~1.10.0"
+    "tslib": "~1.11.1"
   },
   "devDependencies": {
     "@dojo/cli": "^6.0.0",
     "@dojo/cli-build-widget": "^6.0.2",
-    "@types/node": "^9.6.52",
+    "@types/node": "^9.6.55",
     "husky": "^4.2.3",
-    "lint-staged": "^10.0.7",
+    "lint-staged": "^10.0.8",
     "prettier": "^1.19.1",
     "shx": "^0.3.2",
     "typescript": "~3.4.5"
