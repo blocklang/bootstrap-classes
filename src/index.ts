@@ -136,6 +136,19 @@ export const btn_group_toggle: string = "btn-group-toggle";
 export const card: string = "card";
 export const card_header: string = "card-header";
 export const card_body: string = "card-body";
+export const card_footer: string = "card-footer";
+export const card_title: string = "card-title";
+export const card_text: string = "card-text";
+export const card_link: string = "card-link";
+export const card_subtitle: string = "card-subtitle";
+export const card_img_top: string = "card-img-top";
+export const card_header_tabs: string = "card-header-tabs";
+export const card_header_pills: string = "card-header-pills";
+export const card_img: string = "card-img";
+export const card_img_overlay: string = "card-img-overlay";
+export const card_group: string = "card-group";
+export const card_deck: string = "card-deck";
+export const card_columns: string = "card-columns";
 
 //      dropdown
 export const dropdown: string = "dropdown";
