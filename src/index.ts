@@ -50,6 +50,25 @@ export const h6: string = "h6";
 export const table: string = "table";
 export const table_hover: string = "table-hover";
 export const table_borderless: string = "table-borderless";
+export const table_bordered: string = "table-bordered";
+export const thead_light: string = "thead-light";
+export const thead_dark: string = "thead-dark";
+export const table_striped: string = "table-striped";
+export const table_sm: string = "table-sm";
+export const table_active: string = "table-active";
+export const table_primary: string = "table-primary";
+export const table_secondary: string = "table-secondary";
+export const table_success: string = "table-success";
+export const table_danger: string = "table-danger";
+export const table_warning: string = "table-warning";
+export const table_info: string = "table-info";
+export const table_light: string = "table-light";
+export const table_dark: string = "table-dark";
+export const table_responsive: string = "table-responsive";
+export const table_responsive_sm: string = "table-responsive-sm";
+export const table_responsive_md: string = "table-responsive-md";
+export const table_responsive_lg: string = "table-responsive-lg";
+export const table_responsive_xl: string = "table-responsive-xl";
 
 //     float
 export const float_left: string = "float-left";
@@ -184,6 +203,7 @@ export const navbar_brand: string = "navbar-brand";
 export const navbar_nav: string = "navbar-nav";
 export const collapse: string = "collapse";
 export const navbar_collapse: string = "navbar-collapse";
+export const navbar_text: string = "navbar-text";
 
 export const bg_primary: string = "bg-primary";
 export const bg_secondary: string = "bg-secondary";
