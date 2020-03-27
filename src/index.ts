@@ -169,6 +169,7 @@ export const form_check: string = "form-check";
 export const form_check_input: string = "form-check-input";
 export const form_check_label: string = "form-check-label";
 export const form_check_inline: string = "form-check-inline";
+export const form_inline: string = "form-inline";
 
 //      validation
 export const needs_validation: string = "needs-validation";
