@@ -10,23 +10,26 @@
     "build:lib:legacy": "dojo build widget --mode dist --target lib -l && shx cp -r output/dist/* dist/",
     "clean": "shx rm -rf dist && shx mkdir dist",
     "build": "npm run clean && npm run build:lib && npm run build:lib:legacy && shx cp package.json dist/ && shx cp README.md dist/",
-    "prettier": "prettier --write 'src/**/*.{ts,tsx}' 'src/**/*.css' 'tests/**/*.{ts,tsx}'"
+    "prettier": "prettier --write \"{src,tests}/**/*.{ts,tsx,css}\""
   },
   "dependencies": {
     "tslib": "~1.11.1"
   },
   "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
     "@dojo/cli": "^6.0.0",
     "@dojo/cli-build-widget": "^6.0.2",
     "@types/node": "^9.6.55",
     "husky": "^4.2.3",
-    "lint-staged": "^10.0.8",
-    "prettier": "^1.19.1",
+    "lint-staged": "^10.1.1",
+    "prettier": "^2.0.2",
     "shx": "^0.3.2",
     "typescript": "~3.4.5"
   },
   "husky": {
     "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "pre-commit": "lint-staged"
     }
   },
