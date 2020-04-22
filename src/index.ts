@@ -205,6 +205,13 @@ export const list_inline_item: string = "list-inline-item";
 export const nav: string = "nav";
 export const nav_item: string = "nav-item";
 export const nav_link: string = "nav-link";
+export const nav_tabs: string = "nav-tabs";
+export const nav_pills: string = "nav-pills";
+export const nav_fill: string = "nav-fill";
+export const nav_justified: string = "nav-justified";
+
+export const tab_content: string = "tab-content";
+export const tab_pane: string = "tab-pane";
 
 //      nav bar
 export const navbar: string = "navbar";
