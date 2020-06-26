@@ -307,12 +307,38 @@ export const d_table_cell: string = "d-table-cell";
 export const d_table_row: string = "d-table-row";
 export const d_flex: string = "d-flex";
 export const d_inline_flex: string = "d-inline-flex";
-export const flex_grow_1: string = "flex-grow-1";
 export const d_md_block: string = "d-md-block";
 export const d_md_none: string = "d-md-none";
 
 //     flex
 export const flex_column: string = "flex-column";
+export const flex_column_reverse: string = "flex-column-reverse";
+export const flex_row: string = "flex-row";
+export const flex_row_reverse: string = "flex-row-reverse";
+
+export const flex_fill: string = "flex-fill";
+export const flex_grow_0: string = "flex-grow-0";
+export const flex_grow_1: string = "flex-grow-1";
+export const flex_shrink_0: string = "flex-shrink-0";
+export const flex_shrink_1: string = "flex-shrink-1";
+
+export const flex_wrap: string = "flex-wrap";
+export const flex_nowrap: string = "flex-nowrap";
+export const flex_wrap_reverse: string = "flex-wrap-reverse";
+
+export const order_0: string = "order-0";
+export const order_1: string = "order-1";
+export const order_2: string = "order-2";
+export const order_3: string = "order-3";
+export const order_4: string = "order-4";
+export const order_5: string = "order-5";
+export const order_6: string = "order-6";
+export const order_7: string = "order-7";
+export const order_8: string = "order-8";
+export const order_9: string = "order-9";
+export const order_10: string = "order-10";
+export const order_11: string = "order-11";
+export const order_12: string = "order-12";
 
 export const justify_content_start: string = "justify-content-start";
 export const justify_content_end: string = "justify-content-end";
