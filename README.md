@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/bootstrap-classes.svg)](https://badge.fury.io/js/bootstrap-classes)
 
-Bootstrap v4 class constant.
+Bootstrap v5 class constant.
 
 ## How to use
 
