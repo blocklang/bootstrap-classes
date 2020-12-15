@@ -1042,7 +1042,6 @@ export const pt_2: string = "pt-2";
 export const pt_3: string = "pt-3";
 export const pt_4: string = "pt-4";
 export const pt_5: string = "pt-5";
-export const pt_auto: string = "pt-auto";
 
 export const pb_0: string = "pb-0";
 export const pb_1: string = "pb-1";
@@ -1050,7 +1049,6 @@ export const pb_2: string = "pb-2";
 export const pb_3: string = "pb-3";
 export const pb_4: string = "pb-4";
 export const pb_5: string = "pb-5";
-export const pb_auto: string = "pb-auto";
 
 export const ps_0: string = "ps-0";
 export const ps_1: string = "ps-1";
@@ -1058,7 +1056,6 @@ export const ps_2: string = "ps-2";
 export const ps_3: string = "ps-3";
 export const ps_4: string = "ps-4";
 export const ps_5: string = "ps-5";
-export const ps_auto: string = "ps-auto";
 
 export const pe_0: string = "pe-0";
 export const pe_1: string = "pe-1";
@@ -1066,8 +1063,6 @@ export const pe_2: string = "pe-2";
 export const pe_3: string = "pe-3";
 export const pe_4: string = "pe-4";
 export const pe_5: string = "pe-5";
-// 与 pointer event none 重复了
-// export const pe_auto: string = "pe-auto";
 
 export const px_0: string = "px-0";
 export const px_1: string = "px-1";
@@ -1075,7 +1070,6 @@ export const px_2: string = "px-2";
 export const px_3: string = "px-3";
 export const px_4: string = "px-4";
 export const px_5: string = "px-5";
-export const px_auto: string = "px-auto";
 
 export const py_0: string = "py-0";
 export const py_1: string = "py-1";
@@ -1083,7 +1077,6 @@ export const py_2: string = "py-2";
 export const py_3: string = "py-3";
 export const py_4: string = "py-4";
 export const py_5: string = "py-5";
-export const py_auto: string = "py-auto";
 
 export const p_0: string = "p-0";
 export const p_1: string = "p-1";
@@ -1091,7 +1084,6 @@ export const p_2: string = "p-2";
 export const p_3: string = "p-3";
 export const p_4: string = "p-4";
 export const p_5: string = "p-5";
-export const p_auto: string = "p-auto";
 
 // horizontal centering
 
